@@ -1,0 +1,75 @@
+body {
+   background-image:url(../images/black_lozenge.png);
+    padding:0;
+    margin:0;
+    color:white;
+}
+
+header {
+
+ background-image:url(../images/dark_fish_skin.png);
+    padding:0;
+    margin:0;
+    color:white;
+    }
+    
+footer {
+ background-image:url(../images/pw_maze_black.png);
+    padding:0;
+    margin:0;
+    color:white;
+    }
+        
+
+li {
+    list-style-type : circle;
+}
+
+main {
+    padding : 50px ;
+}
+
+p {
+    color : white;
+}
+
+.conteneur{
+    margin:15px;
+    padding:10px;
+    width:100%;
+    max-width:960px;
+}
+
+.image{
+	
+    background-image:url(../images/cat-1057829_640.jpg);
+   	width:50px;
+    height:50px;
+    background-size:cover;
+    margin:10px;
+
+  	display:inline-block;
+    vertical-align:middle;
+    box-sizing:border-box; 
+    }
+    
+.colonne {
+    width:30%;
+    display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box;
+ 	padding:10px;
+    }
+    
+.footer {
+	color:orange;
+	vertical-align:middle;
+	float:right;
+	} 
+	
+.carte {
+width:50%;
+float:left;
+padding:30px;
+
+}
