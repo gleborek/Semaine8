@@ -313,6 +313,25 @@
     <footer>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80985.23059984011!2d2.977120874675211!3d50.631046507693576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579b3256e11%3A0x40af13e81646360!2sLille!5e0!3m2!1sfr!2sfr!4v1452534710810" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         <p>Mes coordonnées : 0600000000 </p>
+        <p>Vous pouvez me contacter à l'aide du formulaire ci-dessous</p>
+            <form method="post" action="traitement.php">
+                <p>
+                <fieldset id="coordonnees">
+                    <legend>Vos coordonnées</legend>
+                    <label for="name"> Votre Nom</label> : <input type="text" name ="nom" id="name" placeholder="Ex : Duss">
+                
+                    <label for="firstname"> Votre Prenom</label> : <input type="text" name ="prenom" id="firstname" placeholder="Ex : Jean-Claude">
+                    <label for="email"> Votre Email</label> : <input type="email" name ="mail" id="email" placeholder="Ex : Jean-Claude@duss.eu">
+                </fieldset>
+                <fieldset id="commentaires">
+                    <legend>Vos commentaires</legend>
+                    <label for="ameliorer">Comment pensez-vous que je puisse améliorer mon site ?</label>
+       <br />
+                    <textarea name="ameliorer" id="ameliorer" rows="10" cols="50"> Apprends à coder mec ! </textarea> 
+                </fieldset> 
+                </p>
+                <input type="submit" value="Envoyer" >
+            </form>
     </footer>
 <script src="/js/jquery-1.1202.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
